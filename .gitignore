@@ -1,2 +1,5 @@
 .ipynb_checkpoints
+.idea
+clean_data.csv
+*.hdf5
 

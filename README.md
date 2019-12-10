@@ -21,3 +21,13 @@ If you are using Anaconda, you set up a new conda environment as follows:
 ```
 conda env create -f env.yml
 ```
+
+This creates a new conda environment called **nlpw**. To add this as a kernel to Jupyter, use the following command:
+```
+python -m ipykernel install --user --name nlpw --display-name "Python (nlpw)"
+``` 
+
+## Download pre-trained Word2Vec model
+
+You can download a pre-trained Word2Vec model that was trained on a large corpus of Google News articles here: 
+https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
