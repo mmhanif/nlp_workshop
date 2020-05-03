@@ -34,6 +34,8 @@ https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing
 
 ## Note for MacOS
 
+Use env-MacOS.yml instead of env.yml to create the conda environment on MacOS.
+
 By default, conda installs MKL versions of libraries such as numpy, tensorflow etc. However, this seems to cause
 [some issues](https://stackoverflow.com/questions/53014306/error-15-initializing-libiomp5-dylib-but-found-libiomp5-dylib-already-initial).
 
