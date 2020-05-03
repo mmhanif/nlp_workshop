@@ -2,6 +2,8 @@ name: nlpw
 channels:
   - defaults
 dependencies:
+  # Fixes issue with MKL-linked libraries on MacOS
+  - nomkl
   - pandas
   - gensim
   - scikit-learn
@@ -10,5 +12,7 @@ dependencies:
   - matplotlib
   - numpy
   - jupyter
+  # Fixes problem with Tensorboard and protobuf>3.8
+  - protobuf==3.8
   - seaborn
 
